@@ -3,5 +3,24 @@
 }
 
 #ifplcontainer p {
-	color: #FF0000;
+    background: none;
+    color: #ad2b14;
+    font-weight: bold;
+    font-size: 110%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    bottom: 3.5em;
+}
+#ifplcontainer p:before {
+    background: url(/skins/larry/images/messages.png);
+    content: " ";
+    content: "\ \ ";
+    width: 22px;
+    height: 17px;
+    position: relative;
+    top: 2px;
+    background-position-y: 50px;
+    display: inline-block;
 }
